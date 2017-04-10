@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F5FB441E7BB6B600BD1140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F5FB431E7BB6B600BD1140 /* main.m */; };
+		21F5FB471E7BB6B600BD1140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F5FB461E7BB6B600BD1140 /* AppDelegate.m */; };
+		21F5FB4A1E7BB6B600BD1140 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F5FB491E7BB6B600BD1140 /* ViewController.m */; };
+		21F5FB4D1E7BB6B600BD1140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F5FB4B1E7BB6B600BD1140 /* Main.storyboard */; };
+		21F5FB4F1E7BB6B600BD1140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F5FB4E1E7BB6B600BD1140 /* Assets.xcassets */; };
+		21F5FB521E7BB6B600BD1140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F5FB501E7BB6B600BD1140 /* LaunchScreen.storyboard */; };
+		21F5FB5B1E7BB80D00BD1140 /* FlashCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F5FB5A1E7BB80D00BD1140 /* FlashCardsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21F5FB3F1E7BB6B600BD1140 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F5FB431E7BB6B600BD1140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F5FB451E7BB6B600BD1140 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21F5FB461E7BB6B600BD1140 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21F5FB481E7BB6B600BD1140 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21F5FB491E7BB6B600BD1140 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21F5FB4C1E7BB6B600BD1140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F5FB4E1E7BB6B600BD1140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F5FB511E7BB6B600BD1140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F5FB531E7BB6B600BD1140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F5FB591E7BB80D00BD1140 /* FlashCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardsViewController.h; sourceTree = "<group>"; };
+		21F5FB5A1E7BB80D00BD1140 /* FlashCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F5FB3C1E7BB6B600BD1140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F5FB361E7BB6B600BD1140 = {
+			isa = PBXGroup;
+			children = (
+				21F5FB411E7BB6B600BD1140 /* FlashCards */,
+				21F5FB401E7BB6B600BD1140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F5FB401E7BB6B600BD1140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F5FB3F1E7BB6B600BD1140 /* FlashCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F5FB411E7BB6B600BD1140 /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				21F5FB451E7BB6B600BD1140 /* AppDelegate.h */,
+				21F5FB461E7BB6B600BD1140 /* AppDelegate.m */,
+				21F5FB481E7BB6B600BD1140 /* ViewController.h */,
+				21F5FB491E7BB6B600BD1140 /* ViewController.m */,
+				21F5FB4B1E7BB6B600BD1140 /* Main.storyboard */,
+				21F5FB591E7BB80D00BD1140 /* FlashCardsViewController.h */,
+				21F5FB5A1E7BB80D00BD1140 /* FlashCardsViewController.m */,
+				21F5FB4E1E7BB6B600BD1140 /* Assets.xcassets */,
+				21F5FB501E7BB6B600BD1140 /* LaunchScreen.storyboard */,
+				21F5FB531E7BB6B600BD1140 /* Info.plist */,
+				21F5FB421E7BB6B600BD1140 /* Supporting Files */,
+			);
+			path = FlashCards;
+			sourceTree = "<group>";
+		};
+		21F5FB421E7BB6B600BD1140 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F5FB431E7BB6B600BD1140 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F5FB3E1E7BB6B600BD1140 /* FlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F5FB561E7BB6B600BD1140 /* Build configuration list for PBXNativeTarget "FlashCards" */;
+			buildPhases = (
+				21F5FB3B1E7BB6B600BD1140 /* Sources */,
+				21F5FB3C1E7BB6B600BD1140 /* Frameworks */,
+				21F5FB3D1E7BB6B600BD1140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCards;
+			productName = FlashCards;
+			productReference = 21F5FB3F1E7BB6B600BD1140 /* FlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F5FB371E7BB6B600BD1140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ArchieApps;
+				TargetAttributes = {
+					21F5FB3E1E7BB6B600BD1140 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V8T6EH88N4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 21F5FB3A1E7BB6B600BD1140 /* Build configuration list for PBXProject "FlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F5FB361E7BB6B600BD1140;
+			productRefGroup = 21F5FB401E7BB6B600BD1140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F5FB3E1E7BB6B600BD1140 /* FlashCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F5FB3D1E7BB6B600BD1140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F5FB521E7BB6B600BD1140 /* LaunchScreen.storyboard in Resources */,
+				21F5FB4F1E7BB6B600BD1140 /* Assets.xcassets in Resources */,
+				21F5FB4D1E7BB6B600BD1140 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F5FB3B1E7BB6B600BD1140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F5FB4A1E7BB6B600BD1140 /* ViewController.m in Sources */,
+				21F5FB471E7BB6B600BD1140 /* AppDelegate.m in Sources */,
+				21F5FB441E7BB6B600BD1140 /* main.m in Sources */,
+				21F5FB5B1E7BB80D00BD1140 /* FlashCardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21F5FB4B1E7BB6B600BD1140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F5FB4C1E7BB6B600BD1140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F5FB501E7BB6B600BD1140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F5FB511E7BB6B600BD1140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F5FB541E7BB6B600BD1140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F5FB551E7BB6B600BD1140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F5FB571E7BB6B600BD1140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8T6EH88N4;
+				INFOPLIST_FILE = FlashCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Archie.FlashCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21F5FB581E7BB6B600BD1140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8T6EH88N4;
+				INFOPLIST_FILE = FlashCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Archie.FlashCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F5FB3A1E7BB6B600BD1140 /* Build configuration list for PBXProject "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F5FB541E7BB6B600BD1140 /* Debug */,
+				21F5FB551E7BB6B600BD1140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F5FB561E7BB6B600BD1140 /* Build configuration list for PBXNativeTarget "FlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F5FB571E7BB6B600BD1140 /* Debug */,
+				21F5FB581E7BB6B600BD1140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F5FB371E7BB6B600BD1140 /* Project object */;
+}
